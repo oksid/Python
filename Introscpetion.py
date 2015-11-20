@@ -17,6 +17,5 @@ def interrogate(item):
     doc = doc.strip()   # Remove leading/trailing whitespace.
     firstline = doc.split('\n')[0]
     print ("DOC:     ", firstline)
-
 item = input("\nInput item")
 interrogate(item)
